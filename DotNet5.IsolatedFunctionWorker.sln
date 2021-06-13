@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet5.IsolatedFunctionWorker", "DotNet5.IsolatedFunctionWorker\DotNet5.IsolatedFunctionWorker.csproj", "{B2D227A0-DD72-49E1-9908-15D804B94743}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2D227A0-DD72-49E1-9908-15D804B94743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D227A0-DD72-49E1-9908-15D804B94743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D227A0-DD72-49E1-9908-15D804B94743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D227A0-DD72-49E1-9908-15D804B94743}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66937CD3-4D4A-459C-A7FA-C488148959BC}
+	EndGlobalSection
+EndGlobal
