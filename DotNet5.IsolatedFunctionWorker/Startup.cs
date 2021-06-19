@@ -12,6 +12,8 @@ namespace DotNet5.IsolatedFunctionWorker
     {
         public void ConfigureServices(IConfiguration configuration, IServiceCollection services)
         {
+            services.AddApplicationInsightsTelemetryWorkerService();
+
             services.AddOptions<WorkerOptions>()
                 .PostConfigure<IOptions<JsonSerializerOptions>>((workerOptions, _) =>
                 {
